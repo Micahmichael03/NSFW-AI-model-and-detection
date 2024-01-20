@@ -1,0 +1,16 @@
+description: Ultralytics best model trained on /content/drive/MyDrive/data/config.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-12-08T22:07:39.039977'
+version: 8.0.207
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: male-external-genital
+  1: female-vulva
+  2: female-breast
+  3: mouth and male-external-genital
